@@ -46,10 +46,24 @@ button {
   width: 200px;
 }
 
+select{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: yellowgreen;
+}
 
 .section2{
-  
+  height: 100vh;
+  background-color: #41625f;
+  background-image: url(/images/pexels-engin-akyurt-1435903.jpg);
+  background-size: cover;
 }
+
 .order{
+
+}
+
+.bnn{
 
 }
