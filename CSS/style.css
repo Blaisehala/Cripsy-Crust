@@ -5,11 +5,21 @@
 }
 
 body {
-  height: 100vh;
+
+  
   /* background-image: linear-gradient(to right top, #bfd16b, #82d48a, #3cd2b3, #00cad6, #27beeb, #42bef0, #57bff5, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
   /* background-image: linear-gradient(to right top, #6baed1, #6dadd6, #70addb, #75abdf, #7baae3, #76b1ea, #70b8f1, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
 }
+
+.section1{
+  height: 100vh;
+  
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
+
+}
+
 
 .cc {
   font-size: 120px;
@@ -34,4 +44,8 @@ button {
   background-color: transparent;
 
   width: 200px;
+}
+
+.order{
+  
 }
