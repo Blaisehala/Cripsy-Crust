@@ -12,6 +12,7 @@
 
 
 .section1 {
+  height: 100vh;
 
   /* height: 100vh;
   width: 100vw; */
@@ -80,51 +81,31 @@ select {
 .fif {
   height: 24rem;
   width: 80%;
+}
 
+/* PAPAMENU */
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-  /* SECTION THREE-PAPA MENU */
-
-  .papamenu{
-
-  }
-
-
- .box-menu {
+.box-menu {
   background-color: white;
-  height: 24rem;
+  height:24rem;
   width: 24rem;
   border-style: groove;
   border-radius: 10px;
 } 
 
- .image-menu {
-    height: 70%;
 
-    border-radius: 20px;
-    padding: 15px;
-  } 
-
- .image-menu2 {
-    height: 200px;
-    width: 500px;
-
-  } 
+.image-menu {
+  height: 70%;
+  border-radius: 20px;
+  padding: 15px;
+} 
 
 
-  
+.image-menu2 {
+  height: 200px;
+  width: 500px;
+
+} 
 
 
 
@@ -151,4 +132,4 @@ select {
 
   /* section order */
 
-  .
+  
