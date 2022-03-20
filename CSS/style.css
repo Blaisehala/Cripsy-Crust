@@ -5,18 +5,51 @@
 }
 
 
+header{
+  position: fixed;
+  top:0; left: 0; right:0;
+  height: 3%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
+  padding:2rem 9%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
 
-/* section {
-  height: 100vh;
-} */
+header .logo{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color:#666;
+}
 
+
+
+header .navbar a{
+  font-size: 1rem;
+  margin-left: 2rem;
+  color:#666;
+}
+
+header .navbar a:hover{
+  color:yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+/* Main page CSS begins */
 
 .section1 {
   height: 100vh;
 
-  /* height: 100vh;
-  width: 100vw; */
-  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
   background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
 
 }
@@ -57,7 +90,8 @@ select {
 /* SECTION TWO */
 /* PAPA PIZZA SECTION*/
 .papapizza {
-  background-color: whitesmoke;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fdfeff, #f8fbfe, #f4f9fd, #eff6fd, #ebf3fc, #ebf3fc, #ebf3fc, #ebf3fc, #eff6fd, #f4f9fd, #f8fbfe, #fdfeff);
 }
 
 
@@ -66,7 +100,10 @@ select {
   background-color: white;
   height: 24rem;
   width: 24rem;
-  border-style: groove;
+  border-radius: 10px;
+  border-style: outset;
+  border: solid 1px grey;
+  box-shadow: 5px 5px  #1f282b;
 } 
 
 
@@ -86,13 +123,7 @@ select {
 
 /* PAPAMENU */
 
-.box-menu {
-  background-color: white;
-  height:24rem;
-  width: 24rem;
-  border-style: groove;
-  border-radius: 10px;
-} 
+
 
 
 
@@ -123,7 +154,9 @@ select {
   /* section order */
   .cont{
     /* background-color: #375254; */
-    background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
+    background-image: linear-gradient(to bottom, #fdfeff, #edf1f7, #dce5ee, #cdd8e6, #bdccde, #bdccde, #bdccde, #bdccde, #cdd8e6, #dce5ee, #edf1f7, #fdfeff);
+    /* background-image: linear-gradient(to bottom, #fdfeff, #f8fbfe, #f4f9fd, #eff6fd, #ebf3fc, #ebf3fc, #ebf3fc, #ebf3fc, #eff6fd, #f4f9fd, #f8fbfe, #fdfeff); */
+    /* background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f); */
   }
 
   .orderform{
@@ -139,7 +172,6 @@ select {
 
 
   footer{
-    /* background-image: linear-gradient(to left top, #0f0f0c, #0c0e0b, #0a0d0b, #080b0a, #060909, #050708, #050607, #040405, #030304, #020202, #010101, #000000); */
-    background-image: linear-gradient(to bottom, #2c2e30, #252729, #1f2022, #191a1b, #121314, #1b1c1d, #242525, #2d2e2e, #4a4b4b, #696a6a, #8a8a8a, #acacac);
-  
+   background-color: #131615;
+  gap:50px;
   }
