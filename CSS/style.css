@@ -4,18 +4,14 @@
   box-sizing: 0;
 }
 
-body {
 
 
-
-}
-
-section{
+/* section {
   height: 100vh;
-}
+} */
 
 
-.section1{
+.section1 {
 
   /* height: 100vh;
   width: 100vw; */
@@ -35,7 +31,7 @@ section{
   color: white;
 }
 
-span{
+span {
   color: red;
 }
 
@@ -49,63 +45,110 @@ button {
   width: 200px;
 }
 
-select{
+select {
   width: 250px;
   height: 30px;
   border-radius: 10px;
   border-color: yellowgreen;
 }
 
-
-
-.section2{
+/* SECTION TWO */
+/* PAPA PIZZA SECTION*/
+.papapizza {
   background-color: whitesmoke;
 }
 
 
-.box-menu{
+
+.box-container {
+  background-color: white;
+  height: 24rem;
+  width: 24rem;
+  border-style: groove;
+} 
+
+
+.papaimage {
+  height: 24rem;
+  width: 24rem;
+  display: none;
+
+
+
+}
+
+.fif {
+  height: 24rem;
+  width: 80%;
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  /* SECTION THREE-PAPA MENU */
+
+  .papamenu{
+
+  }
+
+
+ .box-menu {
   background-color: white;
   height: 24rem;
   width: 24rem;
   border-style: groove;
   border-radius: 10px;
-}
+} 
 
-.section3{
-  background-color:brown;
-  height: 12 0vh;
-}
+ .image-menu {
+    height: 70%;
 
-.menu{
-  /* height: 60vh; */
-}
+    border-radius: 20px;
+    padding: 15px;
+  } 
 
-.image-menu{
-  height: 70%;
-  width: 100%;
-  border-radius: 20px;
-padding: 15px;
-}
+ .image-menu2 {
+    height: 200px;
+    width: 500px;
 
-.image-menu2{
-  height: 200px;
-  width: 500px;
+  } 
+
+
   
-}
 
 
-.box-container{
-  background-color: white;
-  height: 24rem;
-  width: 24rem;
-  border-style: groove;
-}
 
-.box-box{
-  background-color: white;
-  /* height: 24rem; */
-  /* width: 40rem; */
-  border-style: groove;
-  border-radius: 7px;
-}
 
+  
+
+
+  /* TOOPPINGS */
+
+  .toppings-content {
+    display: none;
+  }
+
+  .box-box {
+    background-color: white;
+    /* height: 24rem; */
+    /* width: 40rem; */
+    border-style: groove;
+    border-radius: 7px;
+  } 
+
+
+
+
+  /* section order */
+
+  .
