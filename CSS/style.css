@@ -63,6 +63,30 @@ select{
 }
 
 
+.box-menu{
+  background-color: white;
+  height: 24rem;
+  width: 24rem;
+  border-style: groove;
+  border-radius: 10px;
+}
+
+.section3{
+  background-color:brown;
+  height: 12 0vh;
+}
+
+.menu{
+  height: 60vh;
+}
+
+.image-menu{
+  height: 70%;
+  width: 100%;
+  border-radius: 20px;
+padding: 15px;
+}
+
 
 .box-container{
   background-color: white;
@@ -71,4 +95,11 @@ select{
   border-style: groove;
 }
 
+.box-box{
+  background-color: white;
+  /* height: 24rem; */
+  /* width: 40rem; */
+  border-style: groove;
+  border-radius: 7px;
+}
 
