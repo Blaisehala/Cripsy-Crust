@@ -3,13 +3,11 @@ $('document').ready(function(){
 
 
 
-
-  const addHoverEffect = () => {
-    const overlay = $("# h5");
-    overlay.hide();
-    $(".").hover(function () {
-      $(this).find("h5").slideToggle("fast");
-    });
+  $('.box-box').hover(function(){
+    $(this).find('.toppings-content').fadeIn(300)
+  }, function(){
+    $(this).find('.toppings-content').fadeOut(100)
+  });
 
 });
 
