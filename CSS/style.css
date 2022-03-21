@@ -287,7 +287,7 @@ input{
     border-style: groove;
     border-radius: 7px;
 
-    background-image: url(./images/onion.jpeg);
+    background-image: url(../images/onion.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   } 
@@ -298,7 +298,7 @@ input{
     background-color: white;
     border-style: groove;
     border-radius: 7px;
-    background-image: url(./images/sausage.jpeg);
+    background-image: url(../images/sausage.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -311,7 +311,7 @@ input{
    
     border-style: groove;
     border-radius: 7px;
-    background-image: url(./images/cheesee.jpeg);
+    background-image: url(../images/cheesee.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -322,7 +322,7 @@ input{
     
     border-style: groove;
     border-radius: 7px;
-    background-image: url(./images/topping3.jpeg);
+    background-image: url(../images/topping3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -334,7 +334,7 @@ input{
  
     border-style: groove;
     border-radius: 7px;
-    background-image: url(./images/Alesia.jpeg);
+    background-image: url(../images/Alesia.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -345,7 +345,7 @@ input{
    
     border-style: groove;
     border-radius: 7px;
-    background-image: url(./images/bacon.jpeg);
+    background-image: url(../images/bacon.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -356,7 +356,7 @@ input{
     
     border-style: groove;
     border-radius: 7px;
-    background-image: url(./images/topps4.jpeg);
+    background-image: url(../images/topps4.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -368,7 +368,7 @@ input{
     
     border-style: groove;
     border-radius: 7px;
-    background-image: url(./images/vegveg.jpeg);
+    background-image: url(../images/vegveg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 
