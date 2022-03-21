@@ -35,7 +35,19 @@ ul{
   list-style: none;
 }
 
-nav .navbar li{
+/* li{
+  text-decoration: none;
+} */
+
+
+nav .navbar li {
+  font-size: 1rem;
+  margin-left: 2rem;
+  color:#ffff;
+  text-decoration: none;
+}
+
+nav .navbar li a{
   font-size: 1rem;
   margin-left: 2rem;
   color:#ffff;
@@ -47,6 +59,11 @@ nav .navbar li:hover{
   cursor:grabbing;
 }
 
+nav .navbar li a:hover{
+
+color:yellowgreen;
+  cursor:grabbing;
+}
 
 
 
