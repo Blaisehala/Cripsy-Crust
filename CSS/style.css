@@ -71,7 +71,7 @@ span {
   color: red;
 }
 
-button {
+.order-now{
   border-color: yellowgreen;
   color: yellowgreen;
   border-radius: 25px;
@@ -173,11 +173,11 @@ input{
   border-color: yellowgreen;
   color: yellowgreen;
   /* border-radius: 25px; */
-  padding: 10px;
+  /* padding: 5px; */
   
   background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
-  width: 200px;
-  height: 60px;
+  width: 150px;
+  height: 40px;
 
 }
 
@@ -391,9 +391,25 @@ input{
     justify-content: space-between;
   }
 
+  .btn-dlv{
+    border-color: yellowgreen;
+    color: yellowgreen;
+    border-radius: 5px;
+    
+    background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
+    width: 150px;
+    height: 40px;
+  }
+
 
 
   footer{
    background-color: #131615;
   gap:50px;
+  }
+
+
+  .last-para{
+    color:white;
+    font-size: 20px;
   }

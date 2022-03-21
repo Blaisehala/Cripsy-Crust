@@ -5,11 +5,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CripsyCrust</title>
+  <title>Papa's Pizza</title>
+  <link rel="icon" href="/images/icon_icon_-removebg-preview.png">
+
+  <!-- bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/4ba94aa59d.js" crossorigin="anonymous"></script>
+
+
+  <!-- CSS -->
   <link rel="stylesheet" href="/CSS/style.css">
+
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
 
 
 </head>
@@ -21,44 +32,53 @@
   <section class="section1" id="section1">
 
     <div class="container-fluid">
+
+     
       <header>
 
         <a href="#s2" class="logo"><img src="/images/papa-removebg-preview.png" alt="" height="50px"></a>
-    
-     
-    
-        <nav class="navbar">
-            <a href="#section1">Home</a>
-            <a href="#s2">Our Pizza</a>
-            <a href="#toppings">Toppings</a>
-            <a href="">Reviews</a>
-            <a href="#sectionorder">Order</a>
-            <a href="#foot">Contact</a>
+
+
+
+        <nav class="navbar navbar-expand-sm">
+          <a href="#section1">Home</a>
+          <a href="#s2">Our Pizza</a>
+          <a href="#toppings">Toppings</a>
+          <a href="">Reviews</a>
+          <a href="#sectionorder">Order</a>
+          <a href="#foot">Contact</a>
         </nav>
-    
-    </header>
+
+      </header>
 
       <br><br>
 
-      <div class=" d-flex justify-content-around mt-5 ">
-        <div class="area align-item-center my-auto">
-          <h3 class="are">Order Tasty &</h3>
-          <h3 class="cc">Fresh Food</h1>
-            <h3 class="cc"><span>anytime!</span></h3>
-            <br><br><br>
+      <div class="row">
+        
+        <div class=" d-flex justify-content-around mt-5 ">
+          <div class="area align-item-center my-auto">
+            <h3 class="are">Order Tasty &</h3>
+            <h3 class="cc">Fresh Food</h1>
+              <h3 class="cc"><span>anytime!</span></h3>
+              <br><br><br>
+  
+  
+              <a href="#s2"><button class="order-now">check out menu </button></a>
+             
+          </div>
+          <div class="col-lg-6 col-md-3">
+            <img src="/images/pizzafloat-removebg-preview.png" alt="" height="700px">
+  
 
-
-            <a href="#s2"><button>check out menu </button></a>
-            <a href="">Order Now</a>
+          </div>
+  
+          
         </div>
-
-        <img src="/images/pizzafloat-removebg-preview.png" alt="" height="700px">
-
       </div>
 
-      <div class="arrow">
-        <p>Arrow Icon </p>
-      </div>
+      
+
+
 
     </div>
 
@@ -82,10 +102,10 @@
               <p>Hello World</p>
               <button class="btn-now">Order Now</button>
             </div>
-            
-           
+
+
           </div>
-          
+
 
           <img class="image" src="/images/icon_icon_-removebg-preview.png" alt="cheese pizza" height="200px">
           <div class="content">
@@ -248,7 +268,7 @@
 
 
 
-  
+
 
   <!-- SECTION 4 -->
   <!-- Toppings-->
@@ -259,7 +279,7 @@
 
         <div class="col-lg-3">
           <div class="box-box text-center w-100">
-           
+
             <div class="toppings-content">
 
               <h2>Pepporoni Pizza</h2>
@@ -271,7 +291,7 @@
 
         <div class="col-lg-3">
           <div class="box-box1  text-center w-100">
-            
+
             <div class="toppings-content">
 
               <h2>Pepporoni Pizza</h2>
@@ -294,7 +314,7 @@
 
         <div class="col-lg-3">
           <div class="box-box3 text-center w-100">
-            
+
             <div class="toppings-content">
 
               <h2>Pepporoni Pizza</h2>
@@ -314,7 +334,7 @@
 
         <div class="col-lg-3">
           <div class="box-box4 text-center w-100">
-  
+
             <div class="toppings-content">
 
               <h2>Sausages</h2>
@@ -326,7 +346,7 @@
 
         <div class="col-lg-3">
           <div class="box-box5  text-center w-100">
-           
+
             <div class="toppings-content">
 
               <h2>Pepporoni Pizza</h2>
@@ -338,7 +358,7 @@
 
         <div class="col-lg-3">
           <div class="box-box6 text-center w-100">
-            
+
             <div class="toppings-content">
 
               <h2>Pepporoni Pizza</h2>
@@ -349,7 +369,7 @@
 
         <div class="col-lg-3">
           <div class="box-box7 text-center w-100">
-        
+
             <div class="toppings-content">
 
               <h2>Pepporoni Pizza</h2>
@@ -365,7 +385,7 @@
       <div class="row">
         <div class="col-lg-12 ">
           <div class="box-box8 text-center w-100">
-      
+
             <div class="toppings-content">
 
               <h2>Pepporoni Pizza</h2>
@@ -394,80 +414,93 @@
 
   <!-- Order Now -->
   <!-- <div class="container-fluid"> -->
-    <section class="sectionorder" id="sectionorder">
+  <section class="sectionorder" id="sectionorder">
 
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 class="text-center">Order Now!</h1>
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Order Now!</h1>
 
-          <div class="cont p-5 d-flex justify-content-around">
-            <img src="https://images.pexels.com/photos/7362873/pexels-photo-7362873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="delivery" height="800">
-   
+        <div class="cont p-5 d-flex justify-content-around">
+          <img
+            src="https://images.pexels.com/photos/7362873/pexels-photo-7362873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="delivery" height="800">
 
-            <div class="orderform text-center">
-              <form action="" class="">
 
-                <input type="text" placeholder="Name">
-  
-                <input type="text" placeholder="+254"><br><br><br>
-  
-                <select name="" id="" class="">
-                  <option value="">Pizza Type</option>
-                  <option value="">Pepporoni</option>
-                  <option value="">Hawaiian</option>
-                  <option value="">veggie</option>
-                  <option value="">Magheritta</option>
-                  <option value="">Chicken Cutlet</option>
-                  <option value="">Cheese Pizza</option>
-  
-                </select>
-  
-                <select name="" id="">
-                  <option value="">Crust</option>
-                  <option value="">Thin</option>
-                  <option value="">Thick</option>
-                  <option value="">Meduim</option>
-  
-                </select><br><br><br>
-  
-                <select name="" id="">
-                  <option value="">Toppings</option>
-                  <option value="">Sausages</option>
-                  <option value="">Onions</option>
-                  <option value="">Bacon</option>
-                  <option value="">Mushroom</option>
-                  <option value="">Cripsy Bacon</option>
-                  <option value="">Garlic</option>
-  
-                </select>
-  
-                <select name="" id="">
-                  <option value="">Delivery</option>
-                  <option value="">Yes</option> 
-                  <option value="">NO</option>
-  
-  
-                </select><br><br>
-  
-                <input type="text" placeholder="location"><br><br>
-  
+          <div class="orderform text-center">
+            <form action="" class="">
 
-                <a href=""><Button>Order</Button></a>
-  
-              </form>
+              <input type="text" placeholder="Name" id="name">
 
-            </div>
-           
+              <input type="text" placeholder="+254" id="tel"><br><br><br>
+
+              <select name="" id="" class="">
+                <option value="">Pizza Type</option>
+                <option value="">Pepporoni</option>
+                <option value="">Hawaiian</option>
+                <option value="">veggie</option>
+                <option value="">Magheritta</option>
+                <option value="">Chicken Cutlet</option>
+                <option value="">Cheese Pizza</option>
+
+              </select>
+
+              <select name="" id="">
+                <option value="">Crust</option>
+                <option value="">Thin</option>
+                <option value="">Thick</option>
+                <option value="">Meduim</option>
+
+              </select><br><br><br>
+
+              <select name="" id="">
+                <option value="">Toppings</option>
+                <option value="">Sausages</option>
+                <option value="">Onions</option>
+                <option value="">Bacon</option>
+                <option value="">Mushroom</option>
+                <option value="">Cripsy Bacon</option>
+                <option value="">Garlic</option>
+
+              </select>
+
+              <select name="" id="">
+                <option value="">Delivery</option>
+                <option value="">YES</option>
+                <option value="">NO</option>
+
+
+              </select><br><br>
+
+              <input type="text" placeholder="Location" id="loc"><br><br>
+
+
+              <a href=""><Button class="btn-dlv" type="submit" id="sbb">Order</Button></a>
+
+
+              <div id="para">
+                <p></p>
+              </div>
+
+
+            </form>
+
+
           </div>
 
+
+
+
         </div>
+
       </div>
+    </div>
 
 
 
 
 
-    </section>
+
+  </section>
 
 
 
@@ -476,19 +509,20 @@
   </div>
 
   <footer class="foot" id="foot">
-<div class="row text-center p-5">
+    <div class="row text-center p-5">
 
-  <div class="col">
-    <a href=""><button>Facebook</button></a>
+      <div class="col">
+        <a href=""><button class="order-now">Facebook</button></a>
 
-    <a href=""><button>Twwitter</button></a>
+        <a href=""><button class="order-now">Twwitter</button></a>
 
-    <a href=""><button>LinkedIn</button></a>
+        <a href=""><button class="order-now">LinkedIn</button></a>
 
-    <a href=""><button>Instagram</button></a><br>
-    Created by Papa Blaise|@Papa's Pizza
-  </div>
-</div>
+        <a href=""><button class="order-now">Instagram</button></a><br>
+
+        <p class="last-para mt-5"> Created by Papa Blaise | @Papa's Pizza </p>
+      </div>
+    </div>
 
 
   </footer>
@@ -525,37 +559,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script src="/JS/app.js"></script>
 
 
 
