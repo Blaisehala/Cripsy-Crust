@@ -224,6 +224,10 @@ input{
 
 
   /* TOOPPINGS */
+.toppings{
+  /* height: 100vh; */
+}
+
 
   .toppings-content {
     position: absolute;
