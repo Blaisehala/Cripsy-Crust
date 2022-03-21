@@ -6,41 +6,53 @@
 }
 
 
-header{
+.navnav{
+  width: 100vw;
+}
+
+nav{
   position: fixed;
-  top:0; left: 0; right:0;
+  width: 100vw;
+  /* top:0; left: 0; right:x; */
   height: 3%;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* background-color: yellow; */
   background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
   padding:2rem 9%;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+ 
 }
 
-header .logo{
-  font-size: 2.5rem;
+nav .logo{
+  /* font-size: 2.5rem; */
   font-weight: bolder;
   color:#666;
 }
 
+ul{
+  list-style: none;
+}
 
-
-header .navbar a{
+nav .navbar li{
   font-size: 1rem;
   margin-left: 2rem;
-  color:#666;
+  color:#ffff;
+  text-decoration: none;
 }
 
-header .navbar a:hover{
+nav .navbar li:hover{
   color:yellowgreen;
+  cursor:grabbing;
 }
 
 
 
 
-
+.container-fluid{
+  width: 100vw;
+}
 
 
 
@@ -49,6 +61,7 @@ header .navbar a:hover{
 /* Main page CSS begins */
 
 .section1 {
+  width: 100vw;
   height: 100vh;
   font-family: Mulish-Black;
 
@@ -103,6 +116,7 @@ input{
 /* SECTION TWO */
 /* PAPA PIZZA SECTION*/
 .papapizza {
+  width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to bottom, #fdfeff, #f8fbfe, #f4f9fd, #eff6fd, #ebf3fc, #ebf3fc, #ebf3fc, #ebf3fc, #eff6fd, #f4f9fd, #f8fbfe, #fdfeff);
 }
@@ -347,27 +361,6 @@ input{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* section order */
 
 
@@ -401,7 +394,46 @@ input{
     height: 40px;
   }
 
+.btn-dlv:hover{
+  color: white;
+}
 
+
+  .plusplus{
+    border-color: yellowgreen;
+    color: yellowgreen;
+    border-radius: 5px;
+    
+    background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
+    width: 150px;
+    height: 40px;
+
+  }
+
+  .odd {
+    border-color: yellowgreen;
+    color: yellowgreen;
+    border-radius: 5px;
+    
+    background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f);
+    width: 150px;
+    height: 40px;
+
+  }
+
+
+
+  .checkcheck{
+    border-color: rgb(124, 124, 123);
+    color: rgb(26, 27, 24);
+    border-radius: 5px;
+    background-color: transparent;
+    
+    /* background-image: linear-gradient(to left top, #161613, #151614, #141615, #131615, #131616, #171b1c, #1b2123, #20262a, #283439, #2f4347, #375254, #41625f); */
+    width: 150px;
+    height: 40px;
+
+  }
 
   footer{
    background-color: #131615;
@@ -412,4 +444,27 @@ input{
   .last-para{
     color:white;
     font-size: 20px;
+  }
+
+  .foot{
+    background-color: #131615;
+  }
+
+
+
+.information{
+  display: none;
+}
+
+.pomo{
+  display: none;
+}
+
+
+
+
+  @media only screen and (max-width: 600px){
+
+
+
   }

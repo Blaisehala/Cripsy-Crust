@@ -1,5 +1,5 @@
 
-$('document').ready(function(){
+$(document).ready(function(){
 
 
 
@@ -9,31 +9,167 @@ $('document').ready(function(){
     $(this).find('.toppings-content').fadeOut(100)
   });
 
-});
+
+
+ $('.table').hide();
+ $('.order-btn').hide();
 
 
 
-function message (){
-  var name = document.getElementById('name');
-  var telephone = document.getElementById('tel');
-  var location= document.getElementById('location');
-  var x = document.getElementById('para');
+  $('.btn-dlv').click(function() {
+    var name = document.getElementById('name');
+    var telephone = document.getElementById('tel');
+    var location= document.getElementById('location');
+    // var x = document.getElementById('para');
+    var PapaPizza = $("#pizzatype option:selected").val();
+    var PizzaCrust= $("#crusted option:selected").val();
+    var PapaToppings = $("#toptype option:selected").val();
+    var total = parseInt(PapaPizza) + parseInt(PizzaCrust) + parseInt(PapaToppings);
+    var order = 0;
+    var grandTotal = 0;
+
+    $("table").show();
+    $(".order-btn").show();
+    $(".btn-dlv").hide();
+    $('.location').hide();
 
 
-  if (name.value === "" || telephone.value === '') {
-    alert('please fill in relevant information')
-  } else {
-    x.innerText = (`${[name.value]} We have received your Order.Thank you for reaching out to Papa's `)
-  }
-}
+    function Pizza(type, crust,toppings, total, orderNumber) {
+      this.pizzatype = type;
+      this.crusted = crust;
+      this.toptype = toppings;
+      this.total = total;
+      this.orderNumber= orderNumber;
+    }
 
 
-const form = document.getElementById('sbb');
+    $('.plusplus').click(function() {
+      var PapaPizza = $("#pizzatype option:selected").val();
+      var PizzaCrust= $("#crusted option:selected").val();
+      var PapaToppings = $("#toptype option:selected").val();
+      var total = parseInt(PapaPizza) + parseInt(PizzaCrust) + parseInt(PapaToppings);
+     order = order +  1;
+       grandTotal = grandTotal + total;
 
-form.addEventListener('click', function(event){
+       if (name.value === "" || telephone.value === '' ) {
+           alert('please Enter you Name and Telephone')
+           } 
 
-  event.preventDefault();
+          //  preventDefault();
+
+           
+      var newPizza = new Pizza(PapaPizza, PizzaCrust, PapaToppings, total, order);
+
+      var newRow = '<tr><th scope="row">' + newPizza.orderNumber + '</th><td id="size">' + $("#pizzatype option:selected").text() + " " + newPizza.pizzatype + '</td><td id="toppings">' + $(".toptype option:selected").text() + "   " + newPizza.toptype + '</td><td id="crust">' + $(".crusted option:selected").text() + "  " + newPizza.crusted + '</td><td id="total">' + newPizza.total + '</td></tr>'
+
+      $("#BigPoppa").append(newRow);
+
+      $()
+
+
+
+    });
+
+ $('.checkcheck').click(function(){
+
+   $('.pomo').show();
   
-  message();
   
+
+
+ });
+
+  
+
+
+
+    });
+
+    
+
+    
+
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
